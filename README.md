@@ -202,3 +202,14 @@ including Steam Proton and native titles. If you're on a pure-Wayland
 compositor and key presses aren't reaching the game, check
 `echo $XDG_SESSION_TYPE` and confirm the game is actually running under
 XWayland (it usually is by default even in a Wayland session).
+
+## System requirements and distro and installation
+
+# Debian/Ubuntu
+**sudo apt install python3**   **sudo apt install pip**   **sudo apt install xdotool**   *pip install -r requirements.txt (if that says external package or something, do --break-system-packages at the end to install it)*
+
+
+
+# Windows:
+*"py --version"* **"py --version"* *"py -m ensurepip --upgrade"* *"curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"* python get-pip.py* 
+
