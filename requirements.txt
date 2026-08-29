@@ -1,0 +1,17 @@
+gymnasium
+stable-baselines3[extra]
+mss
+opencv-python
+pynput
+numpy
+
+# Optional - only needed for MenuActionReader's OCR logging of which fight
+# action (FIGHT/ACT/ITEM/SPARE/etc.) the agent picked each turn. Training
+# runs fine without it; the last_action_label info field will just stay None.
+# Also requires the tesseract-ocr system binary (e.g. `sudo apt install tesseract-ocr`).
+# pytesseract
+
+# Optional - only needed for the Groq episode-end coaching (groq_teacher.py).
+# Training runs fine without it; you just won't get coaching tips printed.
+# Also requires a GROQ_API_KEY environment variable (never hardcode it).
+# groq
